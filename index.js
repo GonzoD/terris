@@ -3,6 +3,7 @@ const bodyParser  = require('body-parser');
 const mongo       = require('mongodb');
 const monk        = require('monk');
 
+const PORT = process.env.PORT || 4000
 const db = monk('localhost:27017/TetrisScores');
 const tetris = express();
 tetris.use(bodyParser.json());
@@ -45,7 +46,7 @@ tetris.post('/scores', (req, res) => {
 
 tetris.use(express.static('static'));
 
-tetris.listen(16411);
+tetris.listen(PORT);
 
 function getScoreboard() {
   return db.get('usercollection').find({}, {sort: {'score': -1}}, (e, docs) => {
