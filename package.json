@@ -7,22 +7,8 @@
     "start": "node index",
     "dev": "nodemon index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/drakemain/tetris.git"
-  },
-  "keywords": [
-    "tetris",
-    "game",
-    "canvas",
-    "javascript"
-  ],
-  "author": "Drake Main",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/drakemain/tetris/issues"
-  },
-  "homepage": "https://github.com/drakemain/tetris#readme",
+  "author": "",
+  "license": "",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",

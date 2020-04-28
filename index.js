@@ -1,6 +1,5 @@
 const express     = require('express');
 const bodyParser  = require('body-parser');
-const mongo       = require('mongodb');
 const monk        = require('monk');
 
 const PORT = process.env.PORT || 4000
