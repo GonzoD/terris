@@ -1,0 +1,32 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "A tetris clone.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drakemain/tetris.git"
+  },
+  "keywords": [
+    "tetris",
+    "game",
+    "canvas",
+    "javascript"
+  ],
+  "author": "Drake Main",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drakemain/tetris/issues"
+  },
+  "homepage": "https://github.com/drakemain/tetris#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "monk": "^6.0.5",
+    "nodemon": "^2.0.3"
+  }
+}
